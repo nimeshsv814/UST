@@ -1,0 +1,27 @@
+# Can you modify the elements of a tuple after it has been created?
+# Why or why not?
+
+Answer : No, we cannot modify the elements of tuple after it has been created
+	 because it is immutable in the nature,
+	 if we want to modify the tuple, we need to convert to list then do modification, then convert to tuple again.
+
+
+# How would you access the second-to-last element in a tuple?
+
+Answer : Yes, we can access the second-to-last element in a tuple using 
+	 tup_element=mytuple[len(mytuple)-2] and also access using negative indexing,like
+	 tup_element=mytuple[-2]
+
+
+# What is difference between a list and tuple in python?
+
+Answer : 1) List is Mutable , Tuple is immutable
+	 2) Elements in List enclosed with [] , Elements in Tuple enclosed with ()
+
+
+# Given the tuple t=(1,2,3,4), how can you change the value 3 to 100?
+
+Answer : We cannot directly change the value from 3 to 100 in tuple given t=(1,2,3,4)
+	 but we can convert tuple into list like l=list(t)
+	 then change value by l[2]=100
+	 then again convert list to tuple t=tuple(l)
