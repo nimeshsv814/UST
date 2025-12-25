@@ -1,0 +1,27 @@
+# How does the map() function work in python? give an example where you sqaure each number in a list.
+
+Answer : map() function used to apply the function to each iterable item.
+	 Eg:- squaring numbers using 
+	      squares=list(map(lambda x:x**2,[1,2,3,4,5]))
+
+
+# What is the output of the following code?
+
+from functools import reduce
+result=reduce(lambda x,y:x*y,[1,2,3,4])
+print(result)
+
+Answer : 24 because reduce() functions just multiplication to all the elements in the list together.
+
+
+
+# How would you use the map() function to convert all string elements of a list to uppercase?
+
+Answer : list(map(str.upper,['x','y','z']))
+	 Output is ['X','Y','Z']
+
+
+# Compare and constrast the map() and filter() functions in python.
+
+Answer : map() transforms all items by applying the function to each iterable item.
+	 filter() chooses elements based on condition which we have provided.

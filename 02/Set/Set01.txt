@@ -1,0 +1,27 @@
+# How do you remove all elements from a set in python?
+
+Answer : Using clear() method, we can remove all elements in a set and
+	 it will have empty set.
+
+
+
+# What is the output of the following code snippet?
+
+# a={1,2,3,4} , b={3,4,5,6} , print(a-b)
+
+Answer : Output would be {1,2} , elements in "a" but not in "b".
+
+
+
+# How do you check if an element is present in a set?
+
+Answer : To check whether an element present in a set by using "if element in mySet" ,
+	 it will return True or False.
+
+
+
+# How does a set handle duplicate values when adding them?
+
+Answer : While trying to add duplicates , set ignore those if it already exists.
+
+

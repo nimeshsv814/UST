@@ -1,0 +1,23 @@
+# Write a list comprehension that returns all even numbers from 0 to 20.
+
+Answer : [x for x in range(21) if x%2==0]
+
+
+
+# How would you create a new list of squares from an existing list of numbers using list comprehension?
+
+Answer : [x**2 for x in number_list]
+
+
+
+# Write a list comprehension to extract all words that are longer than 4 characters from a sentences.
+
+Answer : [word for word in sentence.split() if len(word)>4]
+
+
+
+# Can you use an if condtion inside a list comprehension? provide an example where only odd numbers are selected from a list?
+
+Answer : Yes, we can use 'if' condition inside the list comprehension filtering purpose,
+	 Example for only odd numbers selecting, [x for x in numbers if x%2==1]
+

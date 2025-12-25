@@ -1,0 +1,17 @@
+# How can you add a new key-value pair to an existing dictionary in python?
+
+Answer : We can add key-value pair as myDict['key']=value
+	 or else myDict.update({'key':value})
+
+
+# What happens if you try to access a key that does not exist in a dictionary?
+
+Answer : If we try to access a key which doesn't exist in dictionary , it will throw an KeyError like 'KeyError : missingKey'.
+
+
+# How would you iterate  over both keys and values of a dictionary in python?
+
+Answer : We can iterate over both keys and values of dictionary like 
+	 for key,value in myDict.items():
+
+
